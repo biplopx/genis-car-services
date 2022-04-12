@@ -1,0 +1,25 @@
+.single-service {
+  padding: 0.75rem;
+  border: 1px solid #000;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.single-service button {
+  background: rgb(31, 128, 219);
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.single-service img {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.single-service button:hover {
+  background: rgb(19, 111, 197);
+}
