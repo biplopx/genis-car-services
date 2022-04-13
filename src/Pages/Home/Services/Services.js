@@ -12,8 +12,8 @@ const Services = () => {
   }, [])
 
   return (
-    <section className='services'>
-      <h1>Our Services</h1>
+    <div id="services" className='container py-5'>
+      <h1 className='text-center mb-3'>Our Services</h1>
       <div className="services-container">
         {
           services.map(service => <Service key={service.id}
@@ -21,7 +21,7 @@ const Services = () => {
         }
       </div>
 
-    </section>
+    </div>
   );
 };
 

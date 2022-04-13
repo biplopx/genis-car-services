@@ -15,9 +15,8 @@
 }
 
 .single-service img {
-  display: block;
-  width: 300px;
-  margin: 0 auto;
+  width: 90%;
+  /* margin: 0 auto; */
 }
 
 .single-service button:hover {

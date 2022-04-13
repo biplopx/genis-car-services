@@ -1,10 +1,9 @@
 import React from 'react';
-import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
-      <p>Copyright geniuscarservices. All rights reserved.</p>
+    <footer className='bg-dark py-3'>
+      <p className='text-white m-0 text-center'>Copyright geniuscarservices. All rights reserved.</p>
     </footer>
   );
 };
